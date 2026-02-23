@@ -1,4 +1,4 @@
-module github.com/plurash/soft-serve
+module github.com/pluralsh/soft-serve
 
 go 1.24.2
 
