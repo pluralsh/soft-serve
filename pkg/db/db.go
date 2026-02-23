@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"charm.land/log/v2"
-	"github.com/charmbracelet/soft-serve/pkg/config"
 	"github.com/jmoiron/sqlx"
-	_ "github.com/lib/pq"  // postgres driver
+	_ "github.com/lib/pq" // postgres driver
+	"github.com/plurash/soft-serve/pkg/config"
 	_ "modernc.org/sqlite" // sqlite driver
 )
 

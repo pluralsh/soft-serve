@@ -9,16 +9,16 @@ import (
 
 	"charm.land/log/v2"
 
-	"github.com/charmbracelet/soft-serve/pkg/backend"
-	"github.com/charmbracelet/soft-serve/pkg/config"
-	"github.com/charmbracelet/soft-serve/pkg/cron"
-	"github.com/charmbracelet/soft-serve/pkg/daemon"
-	"github.com/charmbracelet/soft-serve/pkg/db"
-	"github.com/charmbracelet/soft-serve/pkg/jobs"
-	sshsrv "github.com/charmbracelet/soft-serve/pkg/ssh"
-	"github.com/charmbracelet/soft-serve/pkg/stats"
-	"github.com/charmbracelet/soft-serve/pkg/web"
 	"github.com/charmbracelet/ssh"
+	"github.com/plurash/soft-serve/pkg/backend"
+	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/plurash/soft-serve/pkg/cron"
+	"github.com/plurash/soft-serve/pkg/daemon"
+	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/plurash/soft-serve/pkg/jobs"
+	sshsrv "github.com/plurash/soft-serve/pkg/ssh"
+	"github.com/plurash/soft-serve/pkg/stats"
+	"github.com/plurash/soft-serve/pkg/web"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -7,13 +7,13 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/charmbracelet/soft-serve/pkg/access"
-	"github.com/charmbracelet/soft-serve/pkg/backend"
-	"github.com/charmbracelet/soft-serve/pkg/config"
-	"github.com/charmbracelet/soft-serve/pkg/proto"
-	"github.com/charmbracelet/soft-serve/pkg/sshutils"
-	"github.com/charmbracelet/soft-serve/pkg/utils"
 	"github.com/charmbracelet/ssh"
+	"github.com/plurash/soft-serve/pkg/access"
+	"github.com/plurash/soft-serve/pkg/backend"
+	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/plurash/soft-serve/pkg/proto"
+	"github.com/plurash/soft-serve/pkg/sshutils"
+	"github.com/plurash/soft-serve/pkg/utils"
 	"github.com/spf13/cobra"
 )
 

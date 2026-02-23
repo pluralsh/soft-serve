@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 
 	"charm.land/log/v2"
-	"github.com/charmbracelet/soft-serve/pkg/db"
-	"github.com/charmbracelet/soft-serve/pkg/db/models"
-	"github.com/charmbracelet/soft-serve/pkg/proto"
-	"github.com/charmbracelet/soft-serve/pkg/store"
-	"github.com/charmbracelet/soft-serve/pkg/utils"
-	"github.com/charmbracelet/soft-serve/pkg/webhook"
 	"github.com/google/uuid"
+	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/plurash/soft-serve/pkg/db/models"
+	"github.com/plurash/soft-serve/pkg/proto"
+	"github.com/plurash/soft-serve/pkg/store"
+	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/plurash/soft-serve/pkg/webhook"
 )
 
 // CreateWebhook creates a webhook for a repository.

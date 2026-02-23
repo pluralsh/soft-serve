@@ -12,11 +12,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/charmbracelet/soft-serve/cmd"
-	"github.com/charmbracelet/soft-serve/pkg/backend"
-	"github.com/charmbracelet/soft-serve/pkg/config"
-	"github.com/charmbracelet/soft-serve/pkg/db"
-	"github.com/charmbracelet/soft-serve/pkg/db/migrate"
+	"github.com/plurash/soft-serve/cmd"
+	"github.com/plurash/soft-serve/pkg/backend"
+	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/plurash/soft-serve/pkg/db/migrate"
 	"github.com/spf13/cobra"
 )
 

@@ -3,10 +3,10 @@ package database
 import (
 	"context"
 
-	"github.com/charmbracelet/soft-serve/pkg/db"
-	"github.com/charmbracelet/soft-serve/pkg/db/models"
-	"github.com/charmbracelet/soft-serve/pkg/store"
-	"github.com/charmbracelet/soft-serve/pkg/utils"
+	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/plurash/soft-serve/pkg/db/models"
+	"github.com/plurash/soft-serve/pkg/store"
+	"github.com/plurash/soft-serve/pkg/utils"
 )
 
 type repoStore struct{}

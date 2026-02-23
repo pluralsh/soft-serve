@@ -7,9 +7,9 @@ import (
 
 	"charm.land/lipgloss/v2/table"
 	"github.com/caarlos0/duration"
-	"github.com/charmbracelet/soft-serve/pkg/backend"
-	"github.com/charmbracelet/soft-serve/pkg/proto"
 	"github.com/dustin/go-humanize"
+	"github.com/plurash/soft-serve/pkg/backend"
+	"github.com/plurash/soft-serve/pkg/proto"
 	"github.com/spf13/cobra"
 )
 

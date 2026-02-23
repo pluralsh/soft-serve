@@ -8,8 +8,8 @@ import (
 	"text/template"
 
 	"charm.land/log/v2"
-	"github.com/charmbracelet/soft-serve/pkg/config"
-	"github.com/charmbracelet/soft-serve/pkg/utils"
+	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/plurash/soft-serve/pkg/utils"
 )
 
 // The names of git server-side hooks.

@@ -14,15 +14,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/charmbracelet/soft-serve/git"
-	"github.com/charmbracelet/soft-serve/pkg/db"
-	"github.com/charmbracelet/soft-serve/pkg/db/models"
-	"github.com/charmbracelet/soft-serve/pkg/proto"
-	"github.com/charmbracelet/soft-serve/pkg/store"
-	"github.com/charmbracelet/soft-serve/pkg/utils"
-	"github.com/charmbracelet/soft-serve/pkg/version"
 	"github.com/google/go-querystring/query"
 	"github.com/google/uuid"
+	"github.com/plurash/soft-serve/git"
+	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/plurash/soft-serve/pkg/db/models"
+	"github.com/plurash/soft-serve/pkg/proto"
+	"github.com/plurash/soft-serve/pkg/store"
+	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/plurash/soft-serve/pkg/version"
 )
 
 // Hook is a repository webhook.

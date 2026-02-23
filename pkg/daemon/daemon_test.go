@@ -10,15 +10,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/charmbracelet/soft-serve/pkg/backend"
-	"github.com/charmbracelet/soft-serve/pkg/config"
-	"github.com/charmbracelet/soft-serve/pkg/db"
-	"github.com/charmbracelet/soft-serve/pkg/db/migrate"
-	"github.com/charmbracelet/soft-serve/pkg/git"
-	"github.com/charmbracelet/soft-serve/pkg/store"
-	"github.com/charmbracelet/soft-serve/pkg/store/database"
-	"github.com/charmbracelet/soft-serve/pkg/test"
 	"github.com/go-git/go-git/v5/plumbing/format/pktline"
+	"github.com/plurash/soft-serve/pkg/backend"
+	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/plurash/soft-serve/pkg/db/migrate"
+	"github.com/plurash/soft-serve/pkg/git"
+	"github.com/plurash/soft-serve/pkg/store"
+	"github.com/plurash/soft-serve/pkg/store/database"
+	"github.com/plurash/soft-serve/pkg/test"
 	_ "modernc.org/sqlite" // sqlite driver
 )
 
