@@ -1,4 +1,4 @@
-module github.com/charmbracelet/soft-serve
+module github.com/plurash/soft-serve
 
 go 1.24.2
 

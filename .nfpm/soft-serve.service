@@ -1,6 +1,6 @@
 [Unit]
 Description=Soft Serve git server 🍦
-Documentation=https://github.com/charmbracelet/soft-serve
+Documentation=https://github.com/plurash/soft-serve
 Requires=network-online.target
 After=network-online.target
 
