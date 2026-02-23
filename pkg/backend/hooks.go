@@ -6,11 +6,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/hooks"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/sshutils"
-	"github.com/plurash/soft-serve/pkg/webhook"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/hooks"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/sshutils"
+	"github.com/pluralsh/soft-serve/pkg/webhook"
 )
 
 var _ hooks.Hooks = (*Backend)(nil)

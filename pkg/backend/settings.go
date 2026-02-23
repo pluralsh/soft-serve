@@ -3,8 +3,8 @@ package backend
 import (
 	"context"
 
-	"github.com/plurash/soft-serve/pkg/access"
-	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/db"
 )
 
 // AllowKeyless returns whether or not keyless access is allowed.

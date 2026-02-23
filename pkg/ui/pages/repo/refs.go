@@ -8,10 +8,10 @@ import (
 	"charm.land/bubbles/v2/key"
 	"charm.land/bubbles/v2/spinner"
 	tea "charm.land/bubbletea/v2"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/ui/common"
-	"github.com/plurash/soft-serve/pkg/ui/components/selector"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/selector"
 )
 
 // RefMsg is a message that contains a git.Reference.

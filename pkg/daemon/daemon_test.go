@@ -11,14 +11,14 @@ import (
 	"time"
 
 	"github.com/go-git/go-git/v5/plumbing/format/pktline"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/migrate"
-	"github.com/plurash/soft-serve/pkg/git"
-	"github.com/plurash/soft-serve/pkg/store"
-	"github.com/plurash/soft-serve/pkg/store/database"
-	"github.com/plurash/soft-serve/pkg/test"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/migrate"
+	"github.com/pluralsh/soft-serve/pkg/git"
+	"github.com/pluralsh/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/store/database"
+	"github.com/pluralsh/soft-serve/pkg/test"
 	_ "modernc.org/sqlite" // sqlite driver
 )
 

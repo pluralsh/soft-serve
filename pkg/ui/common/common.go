@@ -8,11 +8,11 @@ import (
 	"github.com/alecthomas/chroma/v2/lexers"
 	"github.com/charmbracelet/ssh"
 	zone "github.com/lrstanley/bubblezone/v2"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/ui/keymap"
-	"github.com/plurash/soft-serve/pkg/ui/styles"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/ui/keymap"
+	"github.com/pluralsh/soft-serve/pkg/ui/styles"
 )
 
 type contextKey struct {

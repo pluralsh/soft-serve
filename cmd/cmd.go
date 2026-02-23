@@ -7,12 +7,12 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/hooks"
-	"github.com/plurash/soft-serve/pkg/store"
-	"github.com/plurash/soft-serve/pkg/store/database"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/hooks"
+	"github.com/pluralsh/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/store/database"
 	"github.com/spf13/cobra"
 )
 

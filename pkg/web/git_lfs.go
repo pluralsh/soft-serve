@@ -15,15 +15,15 @@ import (
 
 	"charm.land/log/v2"
 	"github.com/gorilla/mux"
-	"github.com/plurash/soft-serve/pkg/access"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/models"
-	"github.com/plurash/soft-serve/pkg/lfs"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/storage"
-	"github.com/plurash/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/lfs"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/storage"
+	"github.com/pluralsh/soft-serve/pkg/store"
 )
 
 // serviceLfsBatch handles a Git LFS batch requests.

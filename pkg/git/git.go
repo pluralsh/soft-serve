@@ -11,7 +11,7 @@ import (
 	"charm.land/log/v2"
 	gitm "github.com/aymanbagabas/git-module"
 	"github.com/go-git/go-git/v5/plumbing/format/pktline"
-	"github.com/plurash/soft-serve/git"
+	"github.com/pluralsh/soft-serve/git"
 )
 
 // ErrNoBranches is returned when a repo has no branches.

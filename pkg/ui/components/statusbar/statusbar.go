@@ -4,7 +4,7 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"charm.land/lipgloss/v2"
 	"github.com/charmbracelet/x/ansi"
-	"github.com/plurash/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
 )
 
 // Model is a status bar model.

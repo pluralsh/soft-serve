@@ -6,11 +6,11 @@ import (
 	"time"
 
 	gansi "charm.land/glamour/v2/ansi"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/ui/common"
-	"github.com/plurash/soft-serve/pkg/ui/styles"
-	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/styles"
+	"github.com/pluralsh/soft-serve/pkg/utils"
 	"github.com/spf13/cobra"
 )
 

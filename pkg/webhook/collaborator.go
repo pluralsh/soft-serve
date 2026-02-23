@@ -3,10 +3,10 @@ package webhook
 import (
 	"context"
 
-	"github.com/plurash/soft-serve/pkg/access"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/store"
 )
 
 // CollaboratorEvent is a collaborator event.

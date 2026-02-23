@@ -6,10 +6,10 @@ import (
 	"charm.land/bubbles/v2/key"
 	"charm.land/bubbles/v2/spinner"
 	tea "charm.land/bubbletea/v2"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/ui/common"
-	"github.com/plurash/soft-serve/pkg/ui/components/code"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/code"
 )
 
 // ReadmeMsg is a message sent when the readme is loaded.

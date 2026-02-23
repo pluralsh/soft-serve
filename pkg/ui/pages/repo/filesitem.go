@@ -11,8 +11,8 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"charm.land/lipgloss/v2"
 	"github.com/dustin/go-humanize"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
 )
 
 // FileItem is a list item for a file.

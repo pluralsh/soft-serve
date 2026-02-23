@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/db/internal/test"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/db/internal/test"
 )
 
 func TestMigrate(t *testing.T) {

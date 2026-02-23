@@ -13,10 +13,10 @@ import (
 	"strings"
 
 	"charm.land/log/v2"
-	"github.com/plurash/soft-serve/cmd"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/hooks"
+	"github.com/pluralsh/soft-serve/cmd"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/hooks"
 	"github.com/spf13/cobra"
 )
 

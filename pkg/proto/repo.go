@@ -3,7 +3,7 @@ package proto
 import (
 	"time"
 
-	"github.com/plurash/soft-serve/git"
+	"github.com/pluralsh/soft-serve/git"
 )
 
 // Repository is a Git repository interface.

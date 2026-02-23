@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/plurash/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
 )
 
 // TestSSRFProtection tests that the webhook system blocks SSRF attempts.

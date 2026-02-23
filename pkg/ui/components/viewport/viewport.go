@@ -4,7 +4,7 @@ import (
 	"charm.land/bubbles/v2/key"
 	"charm.land/bubbles/v2/viewport"
 	tea "charm.land/bubbletea/v2"
-	"github.com/plurash/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
 )
 
 // Viewport represents a viewport component.

@@ -9,10 +9,10 @@ import (
 
 	"charm.land/log/v2"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/jwk"
-	"github.com/plurash/soft-serve/pkg/lfs"
-	"github.com/plurash/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/jwk"
+	"github.com/pluralsh/soft-serve/pkg/lfs"
+	"github.com/pluralsh/soft-serve/pkg/proto"
 )
 
 // LFSAuthenticate implements the Git LFS SSH authentication command.

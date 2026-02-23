@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/config"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

@@ -12,8 +12,8 @@ import (
 	"charm.land/lipgloss/v2"
 	"github.com/dustin/go-humanize"
 	"github.com/muesli/reflow/truncate"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
 )
 
 // RefItem is a git reference item.

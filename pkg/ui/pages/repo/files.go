@@ -10,11 +10,11 @@ import (
 	"charm.land/bubbles/v2/spinner"
 	tea "charm.land/bubbletea/v2"
 	gitm "github.com/aymanbagabas/git-module"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/ui/common"
-	"github.com/plurash/soft-serve/pkg/ui/components/code"
-	"github.com/plurash/soft-serve/pkg/ui/components/selector"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/code"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/selector"
 )
 
 type filesView int

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/utils"
 )
 
 // CreateAccessToken creates an access token for user.

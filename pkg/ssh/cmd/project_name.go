@@ -3,7 +3,7 @@ package cmd
 import (
 	"strings"
 
-	"github.com/plurash/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/backend"
 	"github.com/spf13/cobra"
 )
 

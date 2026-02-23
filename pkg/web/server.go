@@ -7,7 +7,7 @@ import (
 	"charm.land/log/v2"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/config"
 )
 
 // NewRouter returns a new HTTP router.

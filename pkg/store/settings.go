@@ -3,8 +3,8 @@ package store
 import (
 	"context"
 
-	"github.com/plurash/soft-serve/pkg/access"
-	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/db"
 )
 
 // SettingStore is an interface for managing settings.

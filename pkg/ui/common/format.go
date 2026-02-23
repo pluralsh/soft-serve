@@ -7,7 +7,7 @@ import (
 
 	gansi "charm.land/glamour/v2/ansi"
 	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/plurash/soft-serve/pkg/ui/styles"
+	"github.com/pluralsh/soft-serve/pkg/ui/styles"
 )
 
 // FormatLineNumber adds line numbers to a string.

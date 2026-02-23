@@ -11,13 +11,13 @@ import (
 	gansi "charm.land/glamour/v2/ansi"
 	"charm.land/lipgloss/v2"
 	"github.com/muesli/reflow/wrap"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/ui/common"
-	"github.com/plurash/soft-serve/pkg/ui/components/footer"
-	"github.com/plurash/soft-serve/pkg/ui/components/selector"
-	"github.com/plurash/soft-serve/pkg/ui/components/viewport"
-	"github.com/plurash/soft-serve/pkg/ui/styles"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/footer"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/selector"
+	"github.com/pluralsh/soft-serve/pkg/ui/components/viewport"
+	"github.com/pluralsh/soft-serve/pkg/ui/styles"
 )
 
 var waitBeforeLoading = time.Millisecond * 100

@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	gitm "github.com/aymanbagabas/git-module"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/webhook"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/webhook"
 	"github.com/spf13/cobra"
 )
 

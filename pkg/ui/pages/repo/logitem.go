@@ -11,8 +11,8 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"charm.land/lipgloss/v2"
 	"github.com/muesli/reflow/truncate"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/ui/common"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
 )
 
 // LogItem is a item in the log list that displays a git commit.

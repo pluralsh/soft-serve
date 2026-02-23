@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/plurash/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/access"
 )
 
 // Collab represents a repository collaborator.

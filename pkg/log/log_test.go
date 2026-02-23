@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/config"
 )
 
 func TestGoodNewLogger(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"charm.land/log/v2"
 	"github.com/gorilla/mux"
-	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db"
 )
 
 // HealthController registers the health check routes for the web server.

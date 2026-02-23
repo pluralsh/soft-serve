@@ -10,8 +10,8 @@ import (
 	gansi "charm.land/glamour/v2/ansi"
 	"charm.land/lipgloss/v2"
 	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/plurash/soft-serve/pkg/ui/common"
-	vp "github.com/plurash/soft-serve/pkg/ui/components/viewport"
+	"github.com/pluralsh/soft-serve/pkg/ui/common"
+	vp "github.com/pluralsh/soft-serve/pkg/ui/components/viewport"
 )
 
 const (

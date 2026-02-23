@@ -8,9 +8,9 @@ import (
 	"charm.land/lipgloss/v2/table"
 	"github.com/dustin/go-humanize"
 	"github.com/google/uuid"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/utils"
-	"github.com/plurash/soft-serve/pkg/webhook"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/webhook"
 	"github.com/spf13/cobra"
 )
 

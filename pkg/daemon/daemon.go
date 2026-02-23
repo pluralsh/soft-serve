@@ -14,11 +14,11 @@ import (
 
 	"charm.land/log/v2"
 	"github.com/go-git/go-git/v5/plumbing/format/pktline"
-	"github.com/plurash/soft-serve/pkg/access"
-	"github.com/plurash/soft-serve/pkg/backend"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/git"
-	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/backend"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/git"
+	"github.com/pluralsh/soft-serve/pkg/utils"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

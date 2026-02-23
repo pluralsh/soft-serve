@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/plurash/soft-serve/pkg/access"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/models"
-	"github.com/plurash/soft-serve/pkg/store"
-	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/access"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/utils"
 )
 
 type collabStore struct{}

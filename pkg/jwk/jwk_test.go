@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/config"
 )
 
 func TestBadNewPair(t *testing.T) {

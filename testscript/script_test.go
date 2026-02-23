@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"github.com/charmbracelet/keygen"
-	"github.com/plurash/soft-serve/pkg/config"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/test"
+	"github.com/pluralsh/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/test"
 	"github.com/rogpeppe/go-internal/testscript"
 	"github.com/spf13/cobra"
 	"golang.org/x/crypto/ssh"

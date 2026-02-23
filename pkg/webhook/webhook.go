@@ -16,13 +16,13 @@ import (
 
 	"github.com/google/go-querystring/query"
 	"github.com/google/uuid"
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/models"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/store"
-	"github.com/plurash/soft-serve/pkg/utils"
-	"github.com/plurash/soft-serve/pkg/version"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/version"
 )
 
 // Hook is a repository webhook.

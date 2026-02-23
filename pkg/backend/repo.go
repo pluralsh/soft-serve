@@ -13,16 +13,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/models"
-	"github.com/plurash/soft-serve/pkg/hooks"
-	"github.com/plurash/soft-serve/pkg/lfs"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/storage"
-	"github.com/plurash/soft-serve/pkg/task"
-	"github.com/plurash/soft-serve/pkg/utils"
-	"github.com/plurash/soft-serve/pkg/webhook"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/hooks"
+	"github.com/pluralsh/soft-serve/pkg/lfs"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/storage"
+	"github.com/pluralsh/soft-serve/pkg/task"
+	"github.com/pluralsh/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/webhook"
 )
 
 // CreateRepository creates a new repository.

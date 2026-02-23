@@ -1,8 +1,8 @@
 package backend
 
 import (
-	"github.com/plurash/soft-serve/git"
-	"github.com/plurash/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/git"
+	"github.com/pluralsh/soft-serve/pkg/proto"
 )
 
 // LatestFile returns the contents of the latest file at the specified path in

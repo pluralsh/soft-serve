@@ -3,7 +3,7 @@ package migrate
 import (
 	"context"
 
-	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db"
 )
 
 const (

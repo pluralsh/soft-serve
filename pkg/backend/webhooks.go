@@ -6,12 +6,12 @@ import (
 
 	"charm.land/log/v2"
 	"github.com/google/uuid"
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/models"
-	"github.com/plurash/soft-serve/pkg/proto"
-	"github.com/plurash/soft-serve/pkg/store"
-	"github.com/plurash/soft-serve/pkg/utils"
-	"github.com/plurash/soft-serve/pkg/webhook"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/proto"
+	"github.com/pluralsh/soft-serve/pkg/store"
+	"github.com/pluralsh/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/webhook"
 )
 
 // CreateWebhook creates a webhook for a repository.

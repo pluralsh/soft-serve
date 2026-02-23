@@ -5,7 +5,7 @@ import (
 	"net/url"
 
 	"github.com/muesli/reflow/truncate"
-	"github.com/plurash/soft-serve/pkg/utils"
+	"github.com/pluralsh/soft-serve/pkg/utils"
 )
 
 // TruncateString is a convenient wrapper around truncate.TruncateString.

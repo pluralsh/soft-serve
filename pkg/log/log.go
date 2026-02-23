@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"charm.land/log/v2"
-	"github.com/plurash/soft-serve/pkg/config"
+	"github.com/pluralsh/soft-serve/pkg/config"
 )
 
 // NewLogger returns a new logger with default settings.

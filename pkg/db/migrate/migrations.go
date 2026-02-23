@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/plurash/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db"
 )
 
 //go:embed *.sql

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/plurash/soft-serve/pkg/db"
-	"github.com/plurash/soft-serve/pkg/db/models"
+	"github.com/pluralsh/soft-serve/pkg/db"
+	"github.com/pluralsh/soft-serve/pkg/db/models"
 )
 
 // AccessTokenStore is an interface for managing access tokens.
