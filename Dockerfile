@@ -24,6 +24,6 @@ EXPOSE 9418/tcp
 # Set the default command
 ENTRYPOINT [ "/usr/local/bin/soft", "serve" ]
 
-RUN apk update && apk add --update git bash openssh && rm -rf /var/cache/apk/*
+RUN apk update && apk add --update git bash openssh 'libexpat>=2.7.5-r0' && rm -rf /var/cache/apk/*
 
 COPY soft /usr/local/bin/soft
