@@ -1,6 +1,6 @@
 module github.com/pluralsh/soft-serve
 
-go 1.26.2
+go 1.26.4
 
 require (
 	charm.land/bubbles/v2 v2.0.0-rc.1.0.20251208171859-93a004ab70c8
