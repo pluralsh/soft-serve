@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.23
 
 # Create directories
 WORKDIR /soft-serve
@@ -24,7 +24,7 @@ EXPOSE 9418/tcp
 # Set the default command
 ENTRYPOINT [ "/usr/local/bin/soft", "serve" ]
 
-RUN apk update && apk add --no-cache git bash openssh curl libcurl
+RUN apk add --no-cache git bash openssh curl libcurl expat=2.8.4-r0
 
 COPY soft /usr/local/bin/soft
 
