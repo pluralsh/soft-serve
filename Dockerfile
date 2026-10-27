@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.24.0
 
 # Create directories
 WORKDIR /soft-serve
