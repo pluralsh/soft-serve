@@ -24,7 +24,7 @@ EXPOSE 9418/tcp
 # Set the default command
 ENTRYPOINT [ "/usr/local/bin/soft", "serve" ]
 
-RUN apk update && apk add --no-cache git bash openssh curl libcurl
+RUN apk update && apk add --no-cache git bash openssh curl musl libcurl=8.23.0-r0 brotli-libs=1.2.1-r0
 
 COPY soft /usr/local/bin/soft
 
