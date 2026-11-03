@@ -57,7 +57,6 @@ soft repo create admin-created-repo
 
 # stop the server
 [windows] stopserver
-[windows] ! stderr .
 
 -- notauthorizederr.txt --
 Error: you are not authorized to do this
