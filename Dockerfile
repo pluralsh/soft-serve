@@ -24,7 +24,7 @@ EXPOSE 9418/tcp
 # Set the default command
 ENTRYPOINT [ "/usr/local/bin/soft", "serve" ]
 
-RUN apk update && apk add --no-cache git bash openssh curl libcurl
+RUN apk update && apk add --no-cache git bash openssh curl libcurl libexpat=2.10.0-r0
 
 COPY soft /usr/local/bin/soft
 
