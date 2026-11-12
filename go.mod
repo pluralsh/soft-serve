@@ -1,6 +1,6 @@
 module github.com/pluralsh/soft-serve
 
-go 1.27.3
+go 1.27.4
 
 require (
 	charm.land/bubbles/v2 v2.0.0-rc.1.0.20251208171859-93a004ab70c8
@@ -41,7 +41,7 @@ require (
 	github.com/sergi/go-diff v1.4.0
 	github.com/spf13/cobra v1.10.2
 	go.uber.org/automaxprocs v1.6.0
-	golang.org/x/crypto v0.58.0
+	golang.org/x/crypto v0.58.1-0.20261009181718-2f1f834330b2
 	golang.org/x/sync v0.24.0
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.44.3
